@@ -1,0 +1,117 @@
+
+# Function Integer get_number(Integer low, Integer high)
+# 	Declare Integer guess_range = high - low
+# 	Declare Integer guess_middle = round(guess_range / 2)
+# 	Declare Integer guess_offset = round(guess_range * .1)
+# 	Declare Integer guessed_number = guess_middle + low
+# 
+# 	If guess_range == 0 Then
+# 		Display "It looks like I guessed your number..."
+# 		guessed_number = low
+# 	Else If guess_range == 1 Then
+# 		guessed_number = low + 1
+# 	Else If guess_offset != 0
+# 		guessed_number += 
+# 			random(guessed_number - guess_offset, guessed_number + guess_offset)
+# 	return guessed_number
+# End Function
+
+
+# Function Integer get_number(Integer low, Integer high)
+#	Declare Integer guess_range = high - low
+#	Declare Integer guess_middle = round(guess_range / 2)
+#	Declare Integer guess_offset = round(guess_range * .1)
+#	Declare Integer guessed_number = guess_middle + low
+#
+#	If guess_range == 0 Then
+#		Display "It looks like I guessed your number..."
+#		guessed_number = low
+#	Else If guess_range == 1 Then
+#		guessed_number = low + 1
+#	Else If guess_offset != 0
+#		guessed_number += 
+#			random(guessed_number - guess_offset, guessed_number + guess_offset)
+#	return guessed_number
+# End Function
+
+# Function Integer get_number(Integer low, Integer high)
+#	Declare Integer guess_range = high - low
+#	Declare Integer guess_middle = round(guess_range / 2)
+#	Declare Integer guess_offset = round(guess_range * .1)
+#	Declare Integer guessed_number = guess_middle + low
+#
+#	If guess_range == 0 Then
+#		Display "It looks like I guessed your number..."
+#		guessed_number = low
+#	Else If guess_range == 1 Then
+#		guessed_number = low + 1
+#	Else If guess_offset != 0
+#		guessed_number += 
+#			random(guessed_number - guess_offset, guessed_number + guess_offset)
+#	return guessed_number
+# End Function
+
+# Function Integer get_number(Integer low, Integer high)
+#	Declare Integer guess_range = high - low
+#	Declare Integer guess_middle = round(guess_range / 2)
+#	Declare Integer guess_offset = round(guess_range * .1)
+#	Declare Integer guessed_number = guess_middle + low
+#
+#	If guess_range == 0 Then
+#		Display "It looks like I guessed your number..."
+#		guessed_number = low
+#	Else If guess_range == 1 Then
+#		guessed_number = low + 1
+#	Else If guess_offset != 0
+#		guessed_number += 
+#			random(guessed_number - guess_offset, guessed_number + guess_offset)
+#	return guessed_number
+# End Function
+
+# Module display_rules()
+#	Display "Welcome to Guess the Number!"
+#	Display "I will ask you for a high number and a low number in just a moment. After
+#	that, you will guess a number between the high and low numbers and I will try to 
+#	guess it."
+#	Display "I will get two guesses plus one for each ten numbers in the range."
+# End Function
+
+# Module display_rules()
+#	Display "Welcome to Guess the Number!"
+#	Display "I will ask you for a high number and a low number in just a moment. After
+#	that, you will guess a number between the high and low numbers and I will try to 
+#	guess it."
+#	Display "I will get two guesses plus one for each ten numbers in the range."
+# End Function
+
+# Function String get_correct_guess()
+#	Display "Out of curiosity, what was your number?"
+#	Input correct_guess
+#	return correct_guess
+# End Function
+
+# Module end_game(Bool guessed_correctly)
+#	If guessed_correctly == true Then
+#		Display "I knew it!"
+#	Else
+#		Display "Looks like I couldn't guess it... 
+#			Out of curiosity, what was your number?"
+#		Display "My next guess was " + correct_guess + "!"
+#	Display "Feel free to challenge me again any time."
+# End Module
+
+# Module main()
+#	Declare Bool guessed_correctly
+#	Declare Integer low
+#	Declare Integer high
+#	Declare Integer requested_low
+#	Declare Integer requested_high
+#	random.seed()
+#	Call display_rules()
+#	Set reqested_low = request_number("low")
+#	Set requested_high = request_number("high")
+#	Set low = min(requested_low, requested_high)
+#	Set high = max(requested_low, requested_high)
+#	guessed_correctly = make_guesses(low, high)
+#	Call end_game(guessed_correctly)
+# End Module
